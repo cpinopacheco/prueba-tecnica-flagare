@@ -1,0 +1,25 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+
+/* modificación colores existentes */
+$primary: #0093ff;
+$secondary: #d9d9d9;
+$light: #e4e7ec;
+$dark: #343638;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "light": $light,
+  "dark": $dark,
+);
+
+//Agregando colores
+/* $custom-colors: (
+  "primary": #343638,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors); */
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

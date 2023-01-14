@@ -1,0 +1,14 @@
+.containerSocialMedia {
+  background: #525457;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  gap: 30px;
+}
+
+@media (min-width: 1200px) {
+  .containerSocialMedia {
+    background: #4f4f4f;
+  }
+}

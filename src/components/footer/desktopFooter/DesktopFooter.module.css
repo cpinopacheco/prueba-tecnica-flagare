@@ -1,0 +1,18 @@
+.containerFooter {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .containerFooter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    place-items: stretch center;
+    gap: 1.5rem;
+    padding: 4rem;
+  }
+}
+
+.linksSection {
+  display: flex;
+  flex-direction: column;
+}
